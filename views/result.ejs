@@ -1,13 +1,12 @@
+
 <html>
 <body>
     <h2>Submitted information:</h2>
-    <% for (var index in info ) { %>
-        <h3>Name: <%= info[index].name %></h3>
-        <h4>Dojo location: <%= info[index].location %> </h4>
-        <h4>Favorite Language:<%= info[index].language %></h4>
-        <h4>Comment: <%= info[index].comment %></h4>
+        <h3>Name: <%= info.name %></h3>
+        <h4>Dojo location: <%= info.location %> </h4>
+        <h4>Favorite Language:<%= info.language %></h4>
+        <h4>Comment: <%= info.comment %></h4>
         <hr>
-        <% } %>
       <form action="/">
         <button>Go back</button>
       </form>
